@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.1/reveal.min.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/6.0.1/theme/white.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/white.min.css"/>
         <link rel="stylesheet" href="css/main.css"/>
     </head>
     <body>
@@ -145,8 +145,8 @@
 
                     // Don't forget to add the dependencies
                     dependencies: [
-                        { src: 'https://multiplex.up.railway.app/socket.io/socket.io.js'},
-                        { src: 'https://multiplex.up.railway.app/master.js'},
+                        { src: 'https://multiplex.up.railway.app/socket.io/socket.io.js', async: true },
+                        { src: 'https://multiplex.up.railway.app/master.js', async: true },
 
                         // and if you want speaker notes
                         { src: 'https://unpkg.com/reveal-notes-server/client.js', async: true }
