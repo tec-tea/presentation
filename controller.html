@@ -184,7 +184,7 @@
         // 1. Run it immediately on load
         Reveal.on('ready', event => {
             updateCustomCounter();
-            document.documentElement.requestFullscreen();
+            Reveal.getRevealElement().requestFullscreen();
         });
 
         // 2. Run it every time the slide changes
