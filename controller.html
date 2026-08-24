@@ -157,7 +157,6 @@
                         }
                     ]
                 });
-            Reveal.getPlugins().notes.open();
         </script>
         <script>
         // Select all forward buttons and attach the listener to each
@@ -187,6 +186,7 @@
         // 1. Run it immediately on load
         Reveal.on('ready', event => {
             updateCustomCounter();
+            Reveal.getPlugins().notes.open();
         });
 
         // 2. Run it every time the slide changes
