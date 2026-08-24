@@ -129,8 +129,6 @@
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/reveal.js-toolbar@0.2.1/toolbar.min.js"></script>
-
         <script>
             Reveal.initialize(
                 {
@@ -186,6 +184,7 @@
         // 1. Run it immediately on load
         Reveal.on('ready', event => {
             updateCustomCounter();
+            document.documentElement.requestFullscreen();
         });
 
         // 2. Run it every time the slide changes
