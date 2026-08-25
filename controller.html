@@ -139,6 +139,17 @@
                     disableLayout: false,
                     controls: 'speaker',
                     showNotes: true,
+                    fsfx: {
+                        auto: {
+                            generate: true,
+                            color: 'var(--r-main-color)',
+                            oppositecolor: 'black',
+                            position: {
+                                left: '20px',
+                                bottom: '20px'
+                            }
+                        },
+                    },
                     multiplex: {
                         // Example values. To generate your own, see the socket.io server instructions.
                         secret: '3dab8100f5c175e34e022730843bdebf', // Obtained from the socket.io server. Gives this (the master) control of the presentation
