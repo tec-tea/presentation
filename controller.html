@@ -129,27 +129,14 @@
             </div>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
-        <script src="js/fsfx.js"></script>
         <script>
             Reveal.initialize(
                 {
-                    plugins: [ FsFx ],
                     width: "100%",
                     height: "100%",
                     disableLayout: false,
                     controls: 'speaker',
                     showNotes: true,
-                    fsfx: {
-                        auto: {
-                            generate: true,
-                            color: 'var(--r-main-color)',
-                            oppositecolor: 'black',
-                            position: {
-                                left: '20px',
-                                bottom: '20px'
-                            }
-                        },
-                    },
                     multiplex: {
                         // Example values. To generate your own, see the socket.io server instructions.
                         secret: '3dab8100f5c175e34e022730843bdebf', // Obtained from the socket.io server. Gives this (the master) control of the presentation
